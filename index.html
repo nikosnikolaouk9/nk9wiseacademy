@@ -52,6 +52,10 @@
   <!-- FontAwesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="favicon.png">
+
   <!-- Custom 3D Stylesheet -->
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -241,10 +245,10 @@
               <i class="fa-solid fa-award"></i> 25 Χρόνια Εμπειρίας • Από το 2006 Ενεργά
             </div>
             <div class="avatar-group">
-              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80" alt="Κηδεμόνας σκύλου">
-              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80" alt="Κηδεμόνας σκύλου">
-              <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&auto=format&fit=crop&q=80" alt="Κηδεμόνας σκύλου">
-              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&auto=format&fit=crop&q=80" alt="Κηδεμόνας σκύλου">
+              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80" alt="Ελένη - Κηδεμόνας σκύλου NK9">
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&auto=format&fit=crop&q=80" alt="Γιώργος - Κηδεμόνας σκύλου NK9">
+              <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&auto=format&fit=crop&q=80" alt="Μαρία - Κηδεμόνας σκύλου NK9">
+              <img src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=100&auto=format&fit=crop&q=80" alt="Δημήτρης - Κηδεμόνας σκύλου NK9">
             </div>
             <div class="trust-text">
               <div class="trust-stars">
@@ -1062,6 +1066,16 @@
                 <span>Όλη η Αττική (Κατ' οίκον) &amp; Online Συνεδρίες πανελλαδικά</span>
               </div>
             </div>
+
+            <div class="contact-item contact-item-schedule">
+              <div class="contact-item-icon"><i class="fa-solid fa-clock"></i></div>
+              <div class="contact-item-text">
+                <strong>Ωράριο Επικοινωνίας</strong>
+                <span class="schedule-pill-text">
+                  <i class="fa-regular fa-calendar-check"></i> Δευτέρα – Παρασκευή: <strong>09:00 – 20:00</strong>
+                </span>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -1133,7 +1147,7 @@
                 <select id="preferredTime" name="Ώρα_Κλήσης" class="form-control">
                   <option value="Πρωί (09:00 - 13:00)">Πρωί (09:00 - 13:00)</option>
                   <option value="Μεσημέρι (13:00 - 17:00)" selected>Μεσημέρι (13:00 - 17:00)</option>
-                  <option value="Απόγευμα / Βράδυ (17:00 - 21:00)">Απόγευμα / Βράδυ (17:00 - 21:00)</option>
+                  <option value="Απόγευμα / Βράδυ (17:00 - 20:00)">Απόγευμα / Βράδυ (17:00 - 20:00)</option>
                   <option value="Οποιαδήποτε ώρα">Οποιαδήποτε ώρα</option>
                 </select>
               </div>
@@ -1227,7 +1241,14 @@
             <li><a href="tel:+306981090348" class="footer-contact-link"><i class="fa-solid fa-mobile-screen" style="color: var(--gold-light); margin-right: 8px;"></i> 698 109 0348</a></li>
             <li><a href="mailto:info@nk9academy.gr" class="footer-contact-link"><i class="fa-solid fa-envelope" style="color: var(--gold-light); margin-right: 8px;"></i> info@nk9academy.gr</a></li>
             <li><i class="fa-solid fa-location-dot" style="color: var(--gold-light); margin-right: 8px;"></i> Αθήνα &amp; Προάστια</li>
-            <li><i class="fa-solid fa-clock" style="color: var(--gold-light); margin-right: 8px;"></i> Δευτ - Σαβ: 09:00 - 21:00</li>
+            <li class="footer-schedule-item">
+              <i class="fa-solid fa-clock footer-schedule-icon"></i>
+              <div class="footer-schedule-content">
+                <span class="footer-schedule-label">Ωράριο Εξυπηρέτησης:</span>
+                <strong class="footer-schedule-days">Δευτέρα – Παρασκευή</strong>
+                <span class="footer-schedule-hours"><i class="fa-regular fa-sun" style="font-size: 0.78rem;"></i> 09:00 – 20:00</span>
+              </div>
+            </li>
           </ul>
         </div>
       </div>

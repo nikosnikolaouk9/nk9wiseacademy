@@ -2990,6 +2990,99 @@ footer {
   padding-left: 6px;
 }
 
+/* Enhanced Schedule Presentation in Footer */
+.footer-schedule-item {
+  display: flex !important;
+  align-items: flex-start;
+  gap: 12px;
+  background: rgba(212, 175, 55, 0.06);
+  border: 1px solid rgba(212, 175, 55, 0.22);
+  border-radius: 12px;
+  padding: 12px 14px;
+  margin-top: 14px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  transition: var(--transition);
+}
+
+.footer-schedule-item:hover {
+  background: rgba(212, 175, 55, 0.1);
+  border-color: var(--gold-primary);
+  transform: translateY(-2px);
+}
+
+.footer-schedule-icon {
+  color: var(--gold-primary);
+  font-size: 1.15rem;
+  margin-top: 3px;
+  flex-shrink: 0;
+}
+
+.footer-schedule-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.footer-schedule-label {
+  font-size: 0.76rem;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: var(--gold-light);
+  font-weight: 700;
+}
+
+.footer-schedule-days {
+  font-size: 0.95rem;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.footer-schedule-hours {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.92rem;
+  color: #34d399; /* Refreshing green highlight */
+  font-weight: 800;
+  letter-spacing: 0.4px;
+}
+
+/* Enhanced Schedule Pill in Contact Section */
+.contact-item-schedule {
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.08) 0%, rgba(18, 22, 30, 0.95) 100%);
+  padding: 16px 20px;
+  border-radius: 16px;
+  margin-top: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4), inset 0 1px 1px rgba(212, 175, 55, 0.2);
+}
+
+.contact-item-schedule .contact-item-icon {
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.25) 0%, rgba(212, 175, 55, 0.1) 100%);
+  color: var(--gold-light);
+  box-shadow: 0 4px 15px rgba(212, 175, 55, 0.2);
+}
+
+.contact-item-schedule .schedule-pill-text {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+  font-size: 0.96rem;
+  color: #e5e7eb;
+}
+
+.contact-item-schedule .schedule-pill-text strong {
+  display: inline !important;
+  color: #34d399 !important;
+  font-size: 1.05rem !important;
+  font-weight: 800;
+  background: rgba(16, 185, 129, 0.12);
+  padding: 2px 8px;
+  border-radius: 6px;
+  border: 1px solid rgba(16, 185, 129, 0.25);
+}
+
 .footer-bottom {
   padding-top: 26px;
   border-top: 1px solid rgba(255, 255, 255, 0.06);
