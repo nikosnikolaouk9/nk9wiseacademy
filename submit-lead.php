@@ -8,7 +8,7 @@ $csv_file    = __DIR__ . '/leads.csv';
 $config_file = __DIR__ . '/admin-config.json';
 $content_file = __DIR__ . '/content.json';
 $uploads_dir  = __DIR__ . '/uploads';
-$admin_email  = 'gregsfak@hotmail.com';
+$admin_email  = 'nk9wiseacademy@gmail.com';
 
 // Δημιουργία φακέλου uploads αν δεν υπάρχει
 if (!file_exists($uploads_dir)) {

@@ -344,7 +344,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   /* ===================================================
-     7. Lead Generation Form Submission (Direct to gregsfak@hotmail.com)
+     7. Lead Generation Form Submission (Direct to nk9wiseacademy@gmail.com)
      =================================================== */
   const leadForm = document.getElementById('leadForm');
   const successMsg = document.getElementById('successMsg');
@@ -503,7 +503,7 @@ document.addEventListener('DOMContentLoaded', () => {
       };
 
       try {
-        await fetch('https://formsubmit.co/ajax/gregsfak@hotmail.com', {
+        await fetch('https://formsubmit.co/ajax/nk9wiseacademy@gmail.com', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -519,7 +519,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (successMsg) {
           successMsg.innerHTML = `
             <div style="font-size: 1.15rem; font-weight: 800; margin-bottom: 6px;">🎉 Ευχαριστούμε πολύ, ${name}!</div>
-            <div style="font-size: 0.95rem; line-height: 1.5;">Η αίτησή σας απεστάλη επιτυχώς στο <strong>gregsfak@hotmail.com</strong>. Θα επικοινωνήσουμε μαζί σας στο <strong>${phone}</strong>!</div>
+            <div style="font-size: 0.95rem; line-height: 1.5;">Η αίτησή σας απεστάλη επιτυχώς στο <strong>nk9wiseacademy@gmail.com</strong>. Θα επικοινωνήσουμε μαζί σας στο <strong>${phone}</strong>!</div>
           `;
           successMsg.style.display = 'block';
           successMsg.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
