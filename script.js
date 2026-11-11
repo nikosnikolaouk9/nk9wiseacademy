@@ -1255,8 +1255,10 @@ document.addEventListener('DOMContentLoaded', () => {
         });
       }
       if (c.contact.area) {
-        const areaSpan = document.querySelector('.contact-item:last-child .contact-item-text span');
-        if (areaSpan) areaSpan.textContent = c.contact.area;
+        const areaStrong = Array.from(document.querySelectorAll('.contact-item-text strong')).find(s => s.textContent.includes('Περιοχές'));
+        if (areaStrong && areaStrong.nextElementSibling) {
+          areaStrong.nextElementSibling.textContent = c.contact.area;
+        }
       }
     }
 
