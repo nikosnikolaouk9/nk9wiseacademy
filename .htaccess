@@ -9,3 +9,9 @@
     Order Allow,Deny
     Allow from all
 </Files>
+
+# Δυναμική ανακατεύθυνση sitemap.xml -> sitemap.php (εφόσον υποστηρίζεται mod_rewrite)
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^sitemap\.xml$ sitemap.php [L]
+</IfModule>
