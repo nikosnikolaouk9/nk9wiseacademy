@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://nk9academy.gr/sitemap.xml
+Sitemap: https://nk9wiseacademy.gr/sitemap.xml

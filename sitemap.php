@@ -16,7 +16,7 @@ $is_https = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off')
 $scheme = $is_https ? 'https' : 'http';
 
 // Determine host with fallback to default production domain
-$host = !empty($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : 'nk9academy.gr';
+$host = !empty($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : 'nk9wiseacademy.gr';
 $base_url = $scheme . '://' . rtrim($host, '/');
 
 // Last modified dates
